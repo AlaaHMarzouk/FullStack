@@ -449,6 +449,7 @@ body:has(input:checked) .box{
 
 .articles .articles_container{
     width: 100%;
+    gap: 0;
     padding: 50px 20px 50px 20px;
     background-color:#f5f5f5;
 
@@ -1073,6 +1074,7 @@ body:has(input:checked) .box{
                 .articles{
 
                     .articles_container{
+                        gap: 10;
                         .left_articles{
                             .title{
                                 .fresh{
@@ -1106,7 +1108,7 @@ body:has(input:checked) .box{
 
 .authors .authors_container{
     width: 100%;
-    padding: 50px;
+    padding: 20px;
     background-color:#ffd230;
     margin-left: auto;
     margin-right: auto;
@@ -1160,8 +1162,8 @@ body:has(input:checked) .box{
             background-color: #fef9c2;
             box-shadow: 5px 5px 1px black;
             padding: 50px;
-            margin-left: auto;
-            margin-right: auto;
+            /* margin-left: auto;
+            margin-right: auto; */
             position: relative;
             transition: translate 0.3s, background-color 0.3s , color 0.3s;
             top: 0;
